@@ -113,6 +113,7 @@ section img#mountains_front
 {
     text-align: center;
     font-size: 2em;
+    font-size: 1.3vw;
     color: #fff;
     align-items: center;
     margin-top: 200px;
@@ -126,7 +127,7 @@ section img#mountains_front
 }
 .roadmap
 {
-    width: 60%;
+    width: 80%;
     margin: auto;
     box-shadow: 15px 15px black;
     margin-top: 50px;
@@ -163,6 +164,7 @@ section img#mountains_front
 {
     text-align: center;
     font-size: 2em;
+    font-size: 1.3vw;
     color: #fff;
     align-items: center;
     max-width: 80rem;
@@ -221,8 +223,9 @@ section img#mountains_front
 .text
 {   
     vertical-align: middle;
+    text-align: center;
     color: azure;
-    font-size: 3ch;
+    font-size: 1.3vw;
 }
 .text h2
 {
@@ -230,7 +233,6 @@ section img#mountains_front
     margin-bottom: 10px;
     color: #fff;
     font-family: 'Headhunter';
-    text-align: center;
 }
 .left
 {
