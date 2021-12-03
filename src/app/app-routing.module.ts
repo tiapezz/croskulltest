@@ -9,17 +9,13 @@ import { MHomeComponent } from './Mobile/m-home/m-home.component';
 
 
 const routes: Routes = [
-  { path: '', 
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
   { 
-    path: 'home',   
+    path: '',   
     component: HomeComponent ,
     canActivate: [DHomeGuardGuard] 
   },
   { 
-    path: 'm/home',   
+    path: 'm',   
     component: MHomeComponent ,
     canActivate: [MHomeGuardGuard] 
   }

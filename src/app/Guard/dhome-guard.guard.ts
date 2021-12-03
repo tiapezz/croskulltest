@@ -13,7 +13,7 @@ export class DHomeGuardGuard implements CanActivate {
   canActivate() {
 
     if (window.innerWidth <768) {
-      this.router.navigate(['m/home']);
+      this.router.navigate(['m']);
       return false;
     }
 
