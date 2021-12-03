@@ -121,11 +121,10 @@ section img#mountains_front
     position: absolute;
     color: #fff;
     white-space: nowrap;
-    font-size: 7.5vw;
+    font-size: 10vw;
     transform: translateY(-50px);
-    /*font-size: 1.5em;*/
     z-index: 9;  
-    font-family: 'Nightmare';
+    font-family: 'Lachrymose';
 }
 #btn
 {
@@ -138,6 +137,7 @@ section img#mountains_front
     font-size: 1.5em;
     z-index: 10;
     transform: translateY(100px);
+    font-family: 'Lachrymose';
 }
 .sec
 {
