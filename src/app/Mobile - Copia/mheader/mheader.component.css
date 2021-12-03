@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css');
+@import url('https://code.jquery.com/jquery-3.3.1.slim.min.js');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js');
+@import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+    font-family: 'Nightmare';
+    src: url('../../../assets/Graveyard/NightmarePills-BV2w.ttf')  format('truetype');
+    font-weight: bold;
+    }
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+    position:absolute; top:0; bottom:0; right:0; left:0;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: left;
+    z-index: 10000;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   
+}
+header ul
+{
+    justify-content: left;
+    align-items: left;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a:active
+{
+    background: #fff;
+    color: #2b1055;
+}
