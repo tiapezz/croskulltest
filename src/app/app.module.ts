@@ -10,8 +10,7 @@ import { WorkComponent } from './Desktop/work/work.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MHomeComponent } from './Mobile/m-home/m-home.component';
 import { MHeaderComponent} from './Mobile/mheader/mheader.component';
-import { MintPageComponent } from './desktop/mint-page/mint-page.component';
-import { MfooterComponent } from './mobile/mfooter/mfooter.component'
+import { MfooterComponent } from './Mobile/mfooter/mfooter.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { MfooterComponent } from './mobile/mfooter/mfooter.component'
     WorkComponent,
     MHomeComponent,
     MHeaderComponent,
-    MintPageComponent,
     MfooterComponent,
   ],
   imports: [
