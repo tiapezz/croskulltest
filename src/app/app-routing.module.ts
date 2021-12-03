@@ -13,9 +13,6 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
-  { path: 'work', 
-    component: WorkComponent 
-  } ,
   { 
     path: 'home',   
     component: HomeComponent ,
