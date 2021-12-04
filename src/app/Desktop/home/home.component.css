@@ -218,7 +218,17 @@ section img#mountains_front
     width: 100%;
     transform: rotateY(180deg);
 }
-
+.v2
+{
+    position: relative;
+    text-align: center;
+    font-size: 1vw;
+    color: rgb(224, 240, 255);
+    align-items: center;
+    margin-top: 2%;
+    z-index: 1;
+    width: 80%;
+}
 .roadmap2
 {
     width: 80%;
@@ -249,7 +259,9 @@ section img#mountains_front
 .postsale p
 {
     text-align: left;
-    font-family: 'Special Elite';
+    font-family: 'Headhunter';
+    text-shadow: 0 0 3px #8F8F8F;
+    color: transparent;
 }
 .postsale h2
 {
@@ -257,6 +269,8 @@ section img#mountains_front
     margin-bottom: 3%;
     color: rgb(224, 240, 255);
     font-family: 'Headhunter';
+    text-shadow: 0 0 3px #8F8F8F;
+    color: transparent;
 }
 .faq-container
 {
