@@ -232,6 +232,8 @@ section img#mountains_front
     font-size: 1vw;
     z-index: 3;
     font-family: 'Headhunter';
+    text-shadow: 0 0 3px #8F8F8F;
+    color: transparent;
 }
 .postsale
 {
@@ -303,7 +305,6 @@ section img#mountains_front
     font-size: 1.5rem;
     font-size: 1vw;
     position: relative;
-    transition: max-heigh 650ms;
     text-align: left;
     padding: 1rem 0; 
     padding-left: 1%; 
