@@ -15,7 +15,26 @@
             src: url('../../../assets/Graveyard/LachrymoseDemoRegular-1GRpM.otf')  format('truetype');
             font-weight: bold;
             };
-
+            @font-face {
+                font-family: 'SpecialELite';
+                src: url('../../../assets/Graveyard/SpecialElite-Regular.ttf')  format('truetype');
+                font-weight: bold;
+                };
+                @font-face {
+                    font-family: 'Gloria';
+                    src: url('../../../assets/Graveyard/GloriaHallelujah-Regular.ttf')  format('truetype');
+                    font-weight: bold;
+                    };
+                    @font-face {
+                        font-family: 'Fell';
+                        src: url('../../../assets/Graveyard/IMFellEnglishSC-Regular.ttf')  format('truetype');
+                        font-weight: bold;
+                        };
+                        @font-face {
+                            font-family: 'Gentium';
+                            src: url('../../../assets/Graveyard/GentiumBasic-Regular.ttf')  format('truetype');
+                            font-weight: bold;
+                            };
 
 *
 {
@@ -114,14 +133,15 @@ section img#mountains_front
 {   
     vertical-align: middle;
     text-align: center;
-    color: azure;
+    color: rgb(224, 240, 255);
     font-size: 1vw;
+    font-family: 'Special Elite';
 }
 .text h2
 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #fff;
+    color: rgb(224, 240, 255);
     font-family: 'Headhunter';
 }
 .left
@@ -137,7 +157,7 @@ section img#mountains_front
     position: relative;
     text-align: center;
     font-size: 1vw;
-    color: #fff;
+    color: rgb(224, 240, 255);
     align-items: center;
     margin-top: 5%;
     z-index: 1;
@@ -146,7 +166,6 @@ section img#mountains_front
 {
     font-size: 3.5em;
     margin-bottom: 1%;
-    color: #fff;
     font-family: 'Headhunter';
 }
 .roadmap
@@ -161,6 +180,7 @@ section img#mountains_front
     padding-left: 10px;
     font-size: 1vw;
     z-index: 3;
+    font-family: 'Special Elite';
 }
 .reach
 {
@@ -198,12 +218,27 @@ section img#mountains_front
     width: 100%;
     transform: rotateY(180deg);
 }
+
+.roadmap2
+{
+    width: 80%;
+    margin: auto;
+    box-shadow: 15px 15px black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 1vw;
+    z-index: 3;
+    font-family: 'Headhunter';
+}
 .postsale
 {
     position: relative;
     text-align: center;
     font-size: 1vw;
-    color: #fff;
+    color: rgb(224, 240, 255);
     align-items: center;
     margin-top: 2%;
     z-index: 1;
@@ -212,12 +247,13 @@ section img#mountains_front
 .postsale p
 {
     text-align: left;
+    font-family: 'Special Elite';
 }
 .postsale h2
 {
     font-size: 2em;
     margin-bottom: 3%;
-    color: #fff;
+    color: rgb(224, 240, 255);
     font-family: 'Headhunter';
 }
 .faq-container
@@ -230,34 +266,36 @@ section img#mountains_front
     padding: 0 1,5rem;
     color: black;
     margin-top: 5%;
+    font-family: 'Special Elite';
 }
 .faq-container h1
 {
     font-size: 3.5em;
     margin-bottom: 1%;
-    color: white;
+    color:rgb(224, 240, 255);
     font-family: 'Headhunter';
 }
 .accordion-item
 {
     border: 1px solid rgb(255, 255, 255);
     box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
-    color: white;
+    color: rgb(224, 240, 255);
     background: rgba(98, 1, 255, 0);
     font-size: 1vw;
     width: 100%;
-    
+    font-family: 'Special Elite';
 }
 .accordion-link{
     font-size: 1.5rem;
     font-size: 1vw;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgb(224, 240, 255);
     text-decoration: none;
     align-items: left;
     justify-content: space-between;
     padding: 1rem 0;  
     padding-left: 1%;
     background: rgba(98, 1, 255, 0);  
+    font-family: 'Special Elite';
 }
 .answer
 {
@@ -269,6 +307,8 @@ section img#mountains_front
     text-align: left;
     padding: 1rem 0; 
     padding-left: 1%; 
+    color: rgb(224, 240, 255);
+    font-family: 'Special Elite';
 }
 .answer::before
 {
@@ -316,14 +356,15 @@ section img#mountains_front
     width: 100%;
     margin: 0 auto;
     padding: 0 1,5rem;
-    color: white;
+    color: rgb(224, 240, 255);
     margin-top: 10%;
+    
   }
   .team h2
 {
     font-size: 2em;
     margin-bottom: 3%;
-    color: #fff;
+    color: rgb(224, 240, 255);
     font-family: 'Headhunter';
     text-align: center;
 }
@@ -343,18 +384,19 @@ section img#mountains_front
 .desc
 {
     position: absolute;
-    color: #fff;
+    color: rgb(224, 240, 255);
     font-size: 0.5vw;
 }
 .tomba span{
     float: left;
     margin: 0;
     width: 100%;
-    color: #dedede;
+    color: rgb(224, 240, 255);
     position: absolute;
     left: 0;
     bottom: 25%;
     font-size: 0.7vw;
+    font-family: 'Special Elite';
 }
 .tomba span strong {
     font-weight: bold;
@@ -362,4 +404,5 @@ section img#mountains_front
     text-transform: uppercase;
     display: block;
     padding-bottom: 5px;
+    font-family: 'Special Elite';
 }
