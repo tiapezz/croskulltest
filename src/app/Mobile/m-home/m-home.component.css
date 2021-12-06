@@ -14,6 +14,11 @@
         src: url('../../../assets/Graveyard/LachrymoseDemoRegular-1GRpM.otf')  format('truetype');
         font-weight: bold;
         };
+        @font-face {
+            font-family: 'Elite';
+            src: url('../../../assets/Graveyard/special-elite.regular.ttf')  format('truetype');
+            font-weight: bold;
+            };
 *
 {
     margin: 0;
@@ -27,50 +32,7 @@ body
     position:absolute; top:0; bottom:0; right:0; left:0;
     background: #1B3A76;
 }
-header
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 150%;
-    padding: 30px;
-    justify-content: space-between;
-    align-items: left;
-    z-index: 10000;
-}
-header .logo
-{
-    color: #fff;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-   
-}
-header ul
-{
-    justify-content: left;
-    align-items: left;
-}
-header ul li
-{
-    list-style: none;
-    margin-left: 20px;
-}
-header ul li a
-{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: #fff;
-    border-radius: 20px;
-}
-header ul li a:hover,
-header ul li a:active
-{
-    background: #fff;
-    color: #2b1055;
-}
+
 
 section
 {
@@ -160,6 +122,7 @@ section img#mountains_front
     text-align: center;
     color: azure;
     font-size: 2ch;
+    font-family: 'Elite';
 }
 .text h2
 {
@@ -180,11 +143,13 @@ section img#mountains_front
     position: relative;
     text-align: center;
     font-size: 1vw;
+    font-size: 2ch;
     color: #fff;
     align-items: center;
     margin-top: 5%;
     z-index: 1;
-    font-size: 2ch;
+    
+    
 }
 .roadmap-container h2
 {
@@ -207,6 +172,7 @@ section img#mountains_front
     padding-bottom: 20px;
     padding-left: 10px;
     z-index: 3;
+    font-family: 'Elite';
 }
 .reach
 {
@@ -222,21 +188,47 @@ section img#mountains_front
     background: rgba(38, 0, 255, 0.308);
     z-index: 3;
 }
-
+.roadmap2
+{
+    width: 100%;
+    margin: auto;
+    box-shadow: 15px 15px black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    font-size: 1vw;
+    z-index: 3;
+    font-family: 'Elite';
+    text-shadow: 0 0 3px #8F8F8F;
+    color: #8F8F8F;
+    font-size: 1vw;
+    font-size: 2ch;
+}
 .postsale
 {
     position: relative;
     text-align: center;
     font-size: 2ch;
-    color: #fff;
+    color: #8F8F8F;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 10%;
     z-index: 1;
     width: 100%;
+}
+.v3
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    border: 1px solid rgb(0, 153, 255);
+    background: rgba(38, 0, 255, 0.308);
 }
 .postsale p
 {
     text-align: left;
+    font-family: 'Elite';
 }
 .postsale h2
 {
@@ -339,12 +331,14 @@ section img#mountains_front
     left: 0;
     bottom: 30%;
     font-size: 2vmax;
+    font-family: 'Elite';
 }
 .tomba span strong {
     font-weight: bold;
     text-transform: uppercase;
     display: block;
     padding-bottom: 5px;
+    font-family: 'Elite';
 }
 .img{
     width: 100%;

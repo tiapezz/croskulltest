@@ -67,3 +67,10 @@ header ul li a:active
     max-width: 7%;
     max-height: 7%;
 }
+.soon:hover span {
+    display: none
+  }
+  
+  .soon:hover:before {
+    content: "Soon!"
+  }
