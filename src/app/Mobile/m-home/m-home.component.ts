@@ -1,4 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-m-home',
@@ -14,6 +15,20 @@ export class MHomeComponent implements OnInit {
   ngOnInit(): void {  
     let h = document.getElementById('sec');
     let he = h?.style.height;
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+           (x[i] as HTMLElement).style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        (x[myIndex-1] as HTMLElement).style.display = "block";  
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
   }
 
 
