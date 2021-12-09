@@ -107,6 +107,16 @@ section img#mountains_front
     position: relative;
     background: linear-gradient(to bottom,#1B3A76,#142543  );
 }
+.slide
+{
+    width: 100%; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.slide img
+{
+    width: 100%;
+}
 .cont{
     width: 60%;
     margin: auto;
