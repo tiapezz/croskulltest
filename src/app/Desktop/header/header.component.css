@@ -21,12 +21,12 @@ header
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 10000;
-    position: fixed
+    position: fixed;
+    background-color: rgba(4, 0, 255, 0.253);
 }
 header .logo
 {
@@ -64,8 +64,8 @@ header ul li a:active
 }
 
 #logo{
-    max-width: 7%;
-    max-height: 7%;
+    max-width: 5%;
+    max-height: 5%;
 }
 .soon:hover span {
     display: none
