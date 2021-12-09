@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import 'antd/dist/antd.css';
 
     @font-face {
         font-family: 'Headhunter';
@@ -123,7 +124,7 @@ section img#mountains_front
     vertical-align: middle;
     text-align: center;
     color: rgb(224, 240, 255);
-    font-size: 1vw;
+    font-size: 27px;
     font-family: 'Elite';
 }
 .text h2
@@ -151,8 +152,7 @@ section img#mountains_front
 }
 #banner
 {
-    width: 70%; 
-    margin-left: 17.5%;
+    width: 100%; 
 }
 .body
 {
@@ -163,11 +163,12 @@ section img#mountains_front
 {
     position: relative;
     text-align: center;
-    font-size: 1vw;
     color: rgb(224, 240, 255);
     align-items: center;
     margin-top: 5%;
     z-index: 1;
+    margin: auto;
+    max-width: 1600px;
 }
 .roadmap-container h2
 {
@@ -204,7 +205,8 @@ section img#mountains_front
 }
 #roadmap-img
 {
-    width: 40%;
+    width: 100%;
+    max-width: 1100px;
 }
 .imgroadmap1-1
 {
@@ -227,12 +229,15 @@ section img#mountains_front
 {
     position: relative;
     text-align: center;
-    font-size: 1vw;
+    font-size: 24px;
     color: rgb(224, 240, 255);
     align-items: center;
     z-index: 1;
-    width: 80%;
     margin-top: 5%;
+}
+.v2 h2
+{
+    color: rgb(224, 240, 255);
 }
 .roadmap2
 {
@@ -240,14 +245,12 @@ section img#mountains_front
     margin: auto;
     box-shadow: 15px 15px black;
     margin-top: 3%;
-
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 1%;
-    font-size: 1vw;
+    font-size: 24px;
     z-index: 3;
     font-family: 'Elite';
-    text-shadow: 0 0 3px #8F8F8F;
     color: #8F8F8F;
 }
 
@@ -277,7 +280,7 @@ section img#mountains_front
     align-items: center;
     margin-top: 2%;
     z-index: 1;
-    width: 40%;
+    max-width: 700px;
 
 }
 .v3
@@ -307,12 +310,12 @@ section img#mountains_front
     text-align: center;
     font-size: 1vw;
     align-items: center;
-    width: 40%;
     margin: 0 auto;
     padding: 0 1,5rem;
     color: black;
     margin-top: 5%;
     font-family: 'Elite';
+    max-width: 800px;
 }
 .faq-container h1
 {
@@ -327,13 +330,13 @@ section img#mountains_front
     box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
     color: rgb(224, 240, 255);
     background: rgba(98, 1, 255, 0);
-    font-size: 1vw;
+    font-size: 24px;
     width: 100%;
     font-family: 'Elite';
 }
 .accordion-link{
     font-size: 1.5rem;
-    font-size: 1vw;
+    font-size: 24px;
     color: rgb(224, 240, 255);
     text-decoration: none;
     align-items: left;
@@ -346,8 +349,7 @@ section img#mountains_front
 .answer
 {
     border: 1px solid rgb(255, 255, 255);
-    font-size: 1.5rem;
-    font-size: 1vw;
+    font-size: 24px;
     position: relative;
     text-align: left;
     padding: 1rem 0; 
@@ -407,7 +409,7 @@ section img#mountains_front
   }
   .team h2
 {
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 3%;
     color: rgb(224, 240, 255);
     font-family: 'Headhunter';
@@ -440,12 +442,12 @@ section img#mountains_front
     position: absolute;
     left: 0;
     bottom: 25%;
-    font-size: 0.7vw;
+    font-size: 16px;
     font-family: 'Elite';
 }
 .tomba span strong {
     font-weight: bold;
-    font-size: 0.7vw;
+    font-size: 16px;
     text-transform: uppercase;
     display: block;
     padding-bottom: 5px;
