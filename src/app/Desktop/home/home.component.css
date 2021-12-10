@@ -106,6 +106,7 @@ section img#mountains_front
 {
     position: relative;
     background: linear-gradient(to bottom,#1B3A76,#142543  );
+    background: #0b1424;
 }
 .slide
 {
