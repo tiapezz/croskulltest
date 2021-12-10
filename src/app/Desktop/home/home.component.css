@@ -11,11 +11,6 @@
             src: url('../../../assets/Graveyard/LachrymoseDemoRegular-1GRpM.otf')  format('truetype');
             font-weight: bold;
             };
-                @font-face {
-                    font-family: 'fell';
-                    src: url('../../../assets/Graveyard/IMFellEnglishSC-Regular.ttf')  format('truetype');
-                    font-weight: bold;
-                    };
                     @font-face {
                         font-family: 'Elite';
                         src: url('../../../assets/Graveyard/special-elite.regular.ttf')  format('truetype');
@@ -34,6 +29,10 @@ body
 {
     position:absolute; top:0; bottom:0; right:0; left:0;
 }
+
+
+/* SECTION */
+
 section
 {
     position: relative;
@@ -68,11 +67,11 @@ section img#moon
 {
     mix-blend-mode: screen;
 }
-section img#mountains_behind
+section img#grass
 {
     z-index: 9;
 }
-section img#mountains_front
+section img#graves
 {
     width: 100%;
     height: 100%;
@@ -102,71 +101,81 @@ section img#mountains_front
     transform: translateY(100px);
     font-family: 'Lachrymose';
 }
+
+
+/* SECOND SECTION */
+
 .sec
 {
     position: relative;
-    background: linear-gradient(to bottom,#1B3A76,#142543  );
     background: #0b1424;
 }
+
+
+/* SLIDER*/
+
 .slide
 {
     width: 100%; 
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top:10%; 
+    margin-bottom: 5%;
 }
 .slide img
 {
     width: 100%;
 }
-.cont{
-    width: 60%;
-    margin: auto;
-}
-.title
+
+
+/* STORY */
+#story
 {
-    align-items: center;
-    width: 50%;
-}
-.text
-{   
-    vertical-align: middle;
-    text-align: center;
+    max-width: 1400px; 
+    margin: auto;
+    margin-top: 5%;
+    text-align: left; 
+    font-family: Elite;
     color: rgb(224, 240, 255);
     font-size: 24px;
-    font-family: 'Elite';
 }
-.text h2
+#story h2
 {
+    text-align: center;
     font-size: 2em;
     margin-bottom: 2%;
     color: rgb(224, 240, 255);
     font-family: 'Headhunter';
 }
-.left
+#story img
 {
-    text-align: right;
+    width: 70%;
+    text-align: center;
+    margin-top: 7%;
 }
-.left img
+#text-story-1
 {
-    width: 100%;
+    font-family: Elite;
 }
-.alignleft { 
-    float: left; 
-    width: 20%;
+#text-story-2
+{
+    margin-top: 10%;
+    font-family: Elite;
 }
-.alignright { 
-    float: right; 
-    width: 20%;
+#img-story-2
+{
+    text-align: center;
 }
+
+
+/* BANNER */
 #banner
 {
     width: 100%; 
 }
-.body
-{
-    font-family: tahoma;
-    overflow-x: hidden;
-}
+
+
+
+/* ROADMAP */
+
 .roadmap-container
 {
     position: relative;
@@ -178,61 +187,18 @@ section img#mountains_front
     margin: auto;
     max-width: 1600px;
 }
-.roadmap-container h2
-{
-    font-size: 3.5em;
-    margin-bottom: 1%;
-    font-family: 'Headhunter';
-}
-.roadmap
-{
-    width: 80%;
-    margin: auto;
-    box-shadow: 15px 15px black;
-    margin-top: 3%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 1%;
-    font-size: 1vw;
-    z-index: 3;
-    font-family: 'Elite';
-}
-.reach
-{
-    border: 1px solid rgb(98, 1, 255);
-    border-left: 15px solid rgb(98, 1, 255);
-    background: rgba(98, 1, 255, 0.308);
-    z-index: 3;
-}
-.notreach
-{
-    border: 1px solid rgb(0, 153, 255);
-    border-left: 15px solid rgb(0, 153, 255);
-    background: rgba(38, 0, 255, 0.308);
-    z-index: 3;
-}
 #roadmap-img
 {
     width: 100%;
     max-width: 1100px;
 }
-.imgroadmap1-1
-{
-    position: absolute;
-    margin: auto;
-    left: 70%;
-    width: 100%;
-}
-.imgroadmap1-2
-{
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: -130%;
-    right: 0;
-    width: 100%;
-    transform: rotateY(180deg);
-}
+
+
+
+
+
+/* ROADMAP 2*/
+
 .v2
 {
     position: relative;
@@ -245,6 +211,9 @@ section img#mountains_front
 }
 .v2 h2
 {
+    font-size: 3.5em;
+    margin-bottom: 1%;
+    font-family: 'Headhunter';
     color: rgb(224, 240, 255);
 }
 .roadmap2
@@ -261,37 +230,54 @@ section img#mountains_front
     font-family: 'Elite';
     color: #8F8F8F;
 }
-
-.roadmap3
+.reach
 {
-    width: 60%;
-    margin: auto;
-    box-shadow: 15px 15px black;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 10px;
-    font-size: 1vw;
+    border: 1px solid rgb(98, 1, 255);
+    border-left: 15px solid rgb(98, 1, 255);
+    background: rgba(98, 1, 255, 0.308);
     z-index: 3;
-    font-family: 'Elite';
-    text-shadow: 0 0 3px #8F8F8F;
-    color: #8F8F8F;
+}
+.notreach
+{
+    border: 1px solid rgb(0, 153, 255);
+    border-left: 15px solid rgb(0, 153, 255);
+    background: rgba(38, 0, 255, 0.308);
+    z-index: 3;
+}
+.img-map2-l
+{
+    position: absolute;
+    margin: auto;
+    left: 70%;
+    width: 100%;
+}
+.img-map2-r
+{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: -130%;
+    right: 0;
+    width: 100%;
+    transform: rotateY(180deg);
 }
 
-.postsale
+
+/* ROADMAP 3*/
+
+.v3
 {
     position: relative;
     text-align: center;
     font-size: 1vw;
     color: rgb(224, 240, 255);
     align-items: center;
-    margin-top: 2%;
+    margin-top: 5%;
     z-index: 1;
     max-width: 700px;
 
 }
-.v3
+.v3-text
 {
     padding-top: 1%;
     padding-bottom: 1%;
@@ -299,19 +285,22 @@ section img#mountains_front
     border: 1px solid rgb(0, 153, 255);
     background: rgba(38, 0, 255, 0.308);
 }
-.postsale p
+.v3-text p
 {
     text-align: left;
     font-family: 'Elite';
     color: #8F8F8F;
 }
-.postsale h2
+.v3 h2
 {
     font-size: 2em;
     margin-bottom: 3%;
     color: rgb(224, 240, 255);
     font-family: 'Headhunter';
 }
+
+
+/* FAQ */
 
 .faq-container
 {
@@ -375,34 +364,14 @@ section img#mountains_front
     left: 0;
     transform: translateY(-50%);
 }
-
-
-
 .accordion-button:after {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
   }
 
-  /*.accordion-item2
-  {
-      border: 1px solid rgba(98, 1, 255);
-      background: rgba(98, 1, 255, 0.308);
-      border-radius: .4rem;
-      margin-bottom: 1rem;
-      padding: 1rem;
-      box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
-  }
-  .accordion-link2{
-      border: 1px solid rgba(98, 1, 255);
-      font-size: 1.5rem;
-      color: rgba(255,255,255,.8);
-      text-decoration: none;
-      background: rgba(98, 1, 255, 0.0);
-      width: 100%;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1rem 0;  
-      padding-left: 10px;  
-  }*/
+
+
+  /* TEAM */
+
   .team
   {
     text-align: center;
@@ -462,11 +431,72 @@ section img#mountains_front
     font-family: 'Elite';
 }
 
-.mySlides {display:none;}
-.slideshow
+
+
+  /*.accordion-item2
+  {
+      border: 1px solid rgba(98, 1, 255);
+      background: rgba(98, 1, 255, 0.308);
+      border-radius: .4rem;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+  }
+  .accordion-link2{
+      border: 1px solid rgba(98, 1, 255);
+      font-size: 1.5rem;
+      color: rgba(255,255,255,.8);
+      text-decoration: none;
+      background: rgba(98, 1, 255, 0.0);
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;  
+      padding-left: 10px;  
+
+      .cont{
+    width: 60%;
+    margin: auto;
+}
+.title
 {
     align-items: center;
-    text-align: center;
-    align-content: center;
-    
+    width: 50%;
 }
+
+.left
+{
+    text-align: right;
+}
+.left img
+{
+    width: 100%;
+}
+.alignleft { 
+    float: left; 
+    width: 20%;
+}
+.alignright { 
+    float: right; 
+    width: 20%;
+}
+.body
+{
+    font-family: tahoma;
+    overflow-x: hidden;
+}
+.roadmap
+{
+    width: 80%;
+    margin: auto;
+    box-shadow: 15px 15px black;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    font-size: 1vw;
+    z-index: 3;
+    font-family: 'Elite';
+}
+
+  }*/

@@ -1,6 +1,7 @@
 <body>
   <app-header>
   </app-header>
+
   <section>
     <!-- 
      <img src="assets/Home/stars.png" id="stars">
@@ -11,17 +12,20 @@
      <img src="assets/Home/mountains_front.png" id="mountains_front"> 
      <img src="../../assets/Graveyard/text.png" id="title">ng serve
    -->
-    <img src="./assets/Graveyard/cloud.png" id="stars">
+    <img src="./assets/Graveyard/cloud.png" id="cloud">
     <img src="./assets/Graveyard/moon.png" id="moon">
-    <img src="./assets/Graveyard/grass.png" id="mountains_behind">
+    <img src="./assets/Graveyard/grass.png" id="grass">
 
     <h2 id="text">CroSKull</h2>
     <a href="#" id="btn">Mint</a>
-    <img src="./assets/Graveyard/grave2.png" id="mountains_front">
+    <img src="./assets/Graveyard/grave2.png" id="graves">
   </section>
+
+
   <div class="sec">
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="padding-top:10%; margin-bottom: 10%;">
+    <!-- SLIDER -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -42,16 +46,16 @@
       </button>
     </div>
 
-    <div class="container-fluid text">
-      
-      <div style="max-width: 1400px; margin: auto;" id="story">
-    
+    <!-- STORY -->
+    <div class="container-fluid">
+      <div id="story">
+
         <div class="ant-row">
           <div class="ant-col ant-col-12">
-            <img src="./assets/Graveyard/bonesville_village.png" style="margin-top: 7%; width: 65%;" />
+            <img src="./assets/Graveyard/bonesville_village.png"  />
           </div>
-          <div class="ant-col ant-col-12" style="text-align: left; font-family: 'Elite';">
-            <h2 style="text-align: center;"> What is CroSKull</h2>
+          <div class="ant-col ant-col-12" id="text-story-1">
+            <h2> What is CroSKull</h2>
             Bonesville has always been a mysterious town. Among the dark streets of the city, it is rare to see people stopping to talk to each other. 
             Many elderly people leave their homes just to carry out duties or run errands, whereas the few children have never played with each other do not know what fun is.
             <br><br>
@@ -65,75 +69,23 @@
             6,666 funny and crazy Croskulls are ready to invade the streets!
           </div>
         </div>
-    
+
         <div class="ant-row">
-          <div class="ant-col ant-col-12" style="margin-top: 10%; text-align: left;">
+          <div class="ant-col ant-col-12" id="text-story-2">
             The Cromskull is a collection of 6.666 uniquely generated NFTs stored in the Cronos Chain.
             <br><br>
             Each Croskull MFT is based on 6+ attributes with different rarities.
             <br><br>
             A Croskull is not simply a PFP but is also the key to the insane Dr. Jiko’s laboratory experiments.
           </div>
-          <div class="ant-col ant-col-12" style="text-align: left;">
-            <img src="./assets/Graveyard/bonesville_village.png" style="margin-top: 7%; margin-left: 5%; width: 65%;" />
+          <div class="ant-col ant-col-12" id="img-story-2">
+            <img src="./assets/Graveyard/bonesville_village.png" />
           </div>
         </div>
-    
-      </div>
-      <!--
-          <p>
-            <img src="./assets/Graveyard/bonesville_village.png" class="alignleft"/>
-              It is Christmas Eve night. In the mysterious village of Bonesville, children are waiting anxiously for Santa
-              to arrive, families are toasting around festive tables and Christmas lights are twinkling everywhere. Doctor
-              Jiko, moody and solitary, is the only one who doesn’t love Christmas. Indeed, while everyone is baking and
-              cooking delicacies, he makes potions. And as all the notorious villains, what a more perfect moment than
-              Christmas Eve to "give life" to his evil project?
-              6666 insane Croskulls are ready to invade the streets of the city!
-              <img src="./assets/Graveyard/bonesville_village.png" class="alignright"/>
-              <br><br><br>
-              
-              The Croskull is a collection of 6,666 uniquely generated NFTs stored on the Cronos Chain.
-              Each Croskull NFT is based on 6+ attributes with different rarities.
-              A Croskull will not simply be PFP, but will also be the key to the mad laboratory experiments of Doctor Jiko.
-          </p>
-          -->
-      <!--
-          <div class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-3 left">
-              <img src="./assets/Graveyard/Gravetory.png" class="gif">
-            </div>
-            <div class="col-sm-4 text">
-              <h2> What is CroSKull</h2>
-              It is Christmas Eve night. In the mysterious village of Bonesville, children are waiting anxiously for Santa
-              to arrive, families are toasting around festive tables and Christmas lights are twinkling everywhere. Doctor
-              Jiko, moody and solitary, is the only one who doesn’t love Christmas. Indeed, while everyone is baking and
-              cooking delicacies, he makes potions. And as all the notorious villains, what a more perfect moment than
-              Christmas Eve to "give life" to his evil project?
-              6666 insane Croskulls are ready to invade the streets of the city!
-              <br><br>
-              The Croskull is a collection of 6,666 uniquely generated NFTs stored on the Cronos Chain.
-              Each Croskull NFT is based on 6+ attributes with different rarities.
-              A Croskull will not simply be PFP, but will also be the key to the mad laboratory experiments of Doctor Jiko.
-            </div>
-          </div>
-          -->
-    </div>
-    
 
-    <!--
-      slideshow
-
-    <div class="row" >
-      <div class="col-sm-5"></div>
-      <div class="w3-content w3-section" style="max-width:300px">
-        <img class="mySlides" src="./assets/Skeleton/1.png" style="width:100%">
-        <img class="mySlides" src="./assets/Skeleton/2.png" style="width:100%">
-        <img class="mySlides" src="./assets/Skeleton/3.png" style="width:100%">
-        <img class="mySlides" src="./assets/Skeleton/4.png" style="width:100%">
       </div>
     </div>
-    -->
+    
 
     
 
@@ -209,11 +161,12 @@
       </div>
       -->
       <img src="./assets//Graveyard/roadmap_x_giiko.png" id="roadmap-img"/>
+
       <div class="v2 container-fluid">
         <h2>V.2 ROADMAP</h2>
         <div class="row">
           <div class="col-sm-1">
-            <img src="./assets/Graveyard/logospento.png" class="imgroadmap1-1" />
+            <img src="./assets/Graveyard/logospento.png" class="img-map2-l" />
           </div>
           <div class="col-sm-10">
             <div class="roadmap2 notreach">
@@ -235,13 +188,13 @@
             </div>
           </div>
           <div class="col-sm-1">
-            <img src="./assets/Graveyard/logospento.png" class="imgroadmap1-2" />
+            <img src="./assets/Graveyard/logospento.png" class="img-map2-r" />
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm-1">
-            <img src="./assets/Graveyard/logospento.png" class="imgroadmap1-1" />
+            <img src="./assets/Graveyard/logospento.png" class="img-map2-l" />
           </div>
           <div class="col-sm-10">
             <div class="roadmap2 notreach">
@@ -264,15 +217,15 @@
             </div>
           </div>
           <div class="col-sm-1">
-            <img src="./assets/Graveyard/logospento.png" class="imgroadmap1-2" />
+            <img src="./assets/Graveyard/logospento.png" class="img-map2-r" />
           </div>
         </div>
       </div>
 
 
-      <div class="postsale container">
+      <div class="v3 container">
         <h2>V.3 ROADMAP</h2>
-        <div class="v3">
+        <div class="v3-text">
           <p>• NFT stacking.</p>
           <p>• Token launch.</p>
           <p>• Metaverse.</p>
@@ -285,7 +238,7 @@
     </div>
     <div class="faq-container">
       <h1>FAQ</h1>
-      <div class="" id="">
+
         <div class="accordion-item">
           <a class="accordion-link accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -436,13 +389,15 @@
         </div>
 
       </div>
+      
 
       <div class="team">
         <h2>team</h2>
         <div class="container">
+
           <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
               <div class="tomba">
                 <img src="./assets/Monster/PngItem_908865.png" class="grave" />
                 <img src="./assets/Monster/team_4.png" class="ppl" />
@@ -452,7 +407,7 @@
                 </span>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
               <div class="tomba">
                 <img src="./assets/Monster/PngItem_908865.png" class="grave" />
                 <img src="./assets/Monster/team_2.png" class="ppl" />
@@ -462,32 +417,12 @@
                 </span>
               </div>
             </div>
-            <!--
-            <div class="col-sm-3">
-              <div class="tomba">
-                <img src="./assets/Monster/PngItem_908865.png" class="grave" />
-                <img src="./assets/Monster/team_3.png" class="ppl" />
-                <span>
-                  <strong>Diego</strong>
-                  Stalker
-                </span>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="tomba">
-                <img src="./assets/Monster/PngItem_908865.png" class="grave" />
-                <img src="./assets/Monster/team_1.png" class="ppl" />
-                <span>
-                  <strong>Effe</strong>
-                  Woman
-                </span>
-              </div>
-            </div>
-            -->
+
           </div>
         </div>
       </div>
-    </div>
+    
+
   </div>
   <app-footer></app-footer>
 </body>
