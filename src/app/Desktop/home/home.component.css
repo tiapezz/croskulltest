@@ -86,7 +86,7 @@ section img#graves
     transform: translateY(-50px);
     /*font-size: 1.5em;*/
     z-index: 9;  
-    font-family: 'Lachrymose';
+    font-family: 'Headhunter';
 }
 #btn
 {
@@ -99,7 +99,7 @@ section img#graves
     font-size: 1.5em;
     z-index: 10;
     transform: translateY(100px);
-    font-family: 'Lachrymose';
+    font-family: 'Headhunter';
 }
 
 
@@ -108,7 +108,8 @@ section img#graves
 .sec
 {
     position: relative;
-    background: #0b1424;
+    background: linear-gradient(to bottom,#1B3A76, #0b1424, #0b1424, #0b1424 );
+    
 }
 
 
@@ -116,6 +117,7 @@ section img#graves
 
 .slide
 {
+    
     width: 100%; 
     padding-top:10%; 
     margin-bottom: 5%;
@@ -131,7 +133,7 @@ section img#graves
 {
     max-width: 1400px; 
     margin: auto;
-    margin-top: 5%;
+    margin-top: 10%;
     text-align: left; 
     font-family: Elite;
     color: rgb(224, 240, 255);
@@ -182,7 +184,7 @@ section img#graves
     text-align: center;
     color: rgb(224, 240, 255);
     align-items: center;
-    margin-top: 5%;
+    margin-top: 10%;
     z-index: 1;
     margin: auto;
     max-width: 1600px;
@@ -207,7 +209,7 @@ section img#graves
     color: rgb(224, 240, 255);
     align-items: center;
     z-index: 1;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 .v2 h2
 {
@@ -272,14 +274,14 @@ section img#graves
     font-size: 1vw;
     color: rgb(224, 240, 255);
     align-items: center;
-    margin-top: 5%;
+    margin-top: 15%;
     z-index: 1;
     max-width: 700px;
 
 }
 .v3-text
 {
-    padding-top: 1%;
+    padding-top: 3%;
     padding-bottom: 1%;
     padding-left: 1%;
     border: 1px solid rgb(0, 153, 255);
@@ -310,7 +312,7 @@ section img#graves
     margin: 0 auto;
     padding: 0 1,5rem;
     color: black;
-    margin-top: 5%;
+    margin-top: 10%;
     font-family: 'Elite';
     max-width: 800px;
 }
@@ -382,6 +384,7 @@ section img#graves
     padding: 0 1,5rem;
     color: rgb(224, 240, 255);
     margin-top: 10%;
+    padding-bottom: 10%;
     
   }
   .team h2
@@ -500,3 +503,253 @@ section img#graves
 }
 
   }*/
+
+/* BANNER */
+/*
+  .container2 .card
+  {
+        position: absolute;
+        max-width: 300px;
+        height: 220px;
+        background: #fab787;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+        transition: 0.3s ease-in-out;
+  }
+  .container2 .card1
+  {
+    margin-top: -60%;
+    margin-left: 10%;
+  }
+  .container2 .card2
+  {
+    margin-top: -60%;
+    margin-left: 80%;
+  }
+  .container2 .card3
+  {
+    margin-top: -30%;
+    margin-left: 10%;
+  }
+  .container2 .card4
+  {
+    margin-top: -30%;
+    margin-left: 80%;
+  }
+
+  .container2 .card:hover{
+      height: 420px;
+  }
+  .container2 .card .imgBx
+  {
+      position: relative;
+      margin-left: -50px;
+      margin-top: -30px;
+      width: 260px;
+      height: 260px; 
+      z-index: 1;
+  }
+  .container2 .card .imgBx img
+  {  
+      max-width: 100%;
+      border-radius: 4px;
+  }
+  .container2 .card .content
+  {
+      position: relative;
+      margin-top: -160px;
+      padding: 10px 15px;
+      text-align: center;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.3s ease-in-out;
+      font-family: 'Elite';
+      font-size: 16px;
+  }
+  .container2 .card .content h2
+  {
+    font-family: 'Headhunter';
+    font-size: 20px;
+  }
+  .container2 .card .content p
+  {
+      font-family: 'Elite';
+  }
+  .container2 .card:hover .content
+  {
+      visibility: visible;
+      opacity: 1;
+      margin-top: 10px;
+      transition-delay: 0.3s;
+  }
+*/
+.container2 .card
+{
+      position: absolute;
+      width: 20%;
+      height: 6%;
+      background: transparent;
+      transition: 0.3s ease-in-out;
+      border: transparent;
+      z-index: 1;
+}
+.container2 .card:hover{
+    height: 6%;
+}
+.container2 .card .imgBx
+{
+    position: relative;
+    margin-left: -1%;
+    margin-top: 1%;
+    width: 100%; 
+    z-index: 2;
+}
+.container2 .card .imgBx img
+{  
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container2 .card .content
+{
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    font-family: 'Elite';
+    font-size: 1vw;
+}
+.container2 .card .content img
+{
+  width: 60%;
+  margin-top: 5%;
+  
+}
+.container2 .card .content p
+{
+    margin-top: 5%;
+    font-family: 'Elite';
+}
+.container2 .card:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.3s;
+}
+.container2 .card:hover 
+{
+    border: 1px solid black;
+    background: orange;
+}
+.container2 .card1
+{
+    margin-top: -60%;
+    margin-left: 10%;
+}
+.container2 .card2
+{
+  margin-top: -60%;
+  margin-left: 75%;
+}
+.container2 .card3
+{
+  margin-top: -30%;
+  margin-left: 10%;
+}
+.container2 .card4
+{
+  margin-top: -30%;
+  margin-left: 75%;
+}
+
+
+
+  /* PROVA TEAM */
+  .circle
+  {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 1.5vh;
+  }
+  .logo1
+  {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background: url("../../../assets/Graveyard/logo1.png");
+      border-radius: 50%;
+      
+  }
+  .logo2
+  {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background: url("../../../assets/Graveyard/logo2.png");
+      border-radius: 50%;
+      
+  }
+  .logo3
+  {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background: url("../../../assets/Graveyard/logo3.png");
+      border-radius: 50%;
+      
+  }
+  .logo4
+  {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background: url("../../../assets/Graveyard/group.png");
+      border-radius: 50%;
+      
+  }
+  .text2
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      animation: rotateText 10s linear infinite;
+  }
+  .text3
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      animation: rotateText 10s linear infinite;
+  }
+  .text1
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      animation: rotateText 10s linear infinite;
+  }
+  .text4
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      animation: rotateText 10s linear infinite;
+  }
+  @keyframes rotateText
+  {
+      0%
+      {
+          transform: rotate(360deg);
+      }
+      100%
+      {
+          transform: rotate(0deg);
+      }
+  }

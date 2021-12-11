@@ -363,3 +363,92 @@ section img#mountains_front
     position: absolute;
     color: #fff;
 }
+
+  /* PROVA TEAM */
+  .circle
+  {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }
+  .logo1
+  {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background: url("../../../assets/Graveyard/logo1.png");
+      border-radius: 50%;
+      
+  }
+  .logo2
+  {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background: url("../../../assets/Graveyard/logo2.png");
+      border-radius: 50%;
+      
+  }
+  .logo3
+  {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background: url("../../../assets/Graveyard/logo3.png");
+      border-radius: 50%;
+      
+  }
+  .logo4
+  {
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background: url("../../../assets/Graveyard/group.png");
+      border-radius: 50%;
+      
+  }
+  .text2
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      animation: rotateText 10s linear infinite;
+  }
+  .text3
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      animation: rotateText 10s linear infinite;
+  }
+  .text1
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      animation: rotateText 10s linear infinite;
+  }
+  .text4
+  {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      animation: rotateText 10s linear infinite;
+  }
+  @keyframes rotateText
+  {
+      0%
+      {
+          transform: rotate(360deg);
+      }
+      100%
+      {
+          transform: rotate(0deg);
+      }
+  }
