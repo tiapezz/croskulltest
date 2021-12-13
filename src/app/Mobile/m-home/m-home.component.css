@@ -4,11 +4,6 @@
     src: url('../../../assets/Graveyard/HeadhunterRegular-6Y1x.ttf')  format('truetype');
     font-weight: bold;
     };
-    @font-face {
-        font-family: 'Lachrymose';
-        src: url('../../../assets/Graveyard/LachrymoseDemoRegular-1GRpM.otf')  format('truetype');
-        font-weight: bold;
-        };
         @font-face {
             font-family: 'Elite';
             src: url('../../../assets/Graveyard/special-elite.regular.ttf')  format('truetype');
@@ -81,7 +76,7 @@ section img#mountains_front
     font-size: 10vw;
     transform: translateY(-50px);
     z-index: 9;  
-    font-family: 'Lachrymose';
+    font-family: 'Headhunter';
 }
 #btn
 {
@@ -94,7 +89,7 @@ section img#mountains_front
     font-size: 1.5em;
     z-index: 10;
     transform: translateY(100px);
-    font-family: 'Lachrymose';
+    font-family: 'Headhunter';
 }
 .sec
 {
@@ -184,14 +179,14 @@ section img#mountains_front
 .reach
 {
     border: 1px solid rgb(98, 1, 255);
-    border-left: 20px solid rgb(98, 1, 255);
+    border-left: 10px solid rgb(98, 1, 255);
     background: rgba(98, 1, 255, 0.308);
     z-index: 3;
 }
 .notreach
 {
     border: 1px solid rgb(0, 153, 255);
-    border-left: 20px solid rgb(0, 153, 255);
+    border-left: 10px solid rgb(0, 153, 255);
     background: rgba(38, 0, 255, 0.308);
     z-index: 3;
 }
