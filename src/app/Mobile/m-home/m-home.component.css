@@ -207,6 +207,12 @@ section img#graves
     box-shadow: 0 5px 20px #000000;
     background: transparent;
 }
+.container2 .cards
+{
+    width: 20%;
+    height: 10%;
+    position: absolute;
+}
 .container2 .card1
 {
     margin-top: -60%;
@@ -228,13 +234,19 @@ section img#graves
     margin-top: -30%;
     margin-left: 75%;
     color: #fff;
-    position: absolute;
-    width: 20%;
-    height: 10%;
 }
-.container2 .card4 img
+.container2 .cards img
 {
     width: 100%;
+}
+.modal-body p
+{
+    font-family: 'Elite';
+    font-size: 20px;
+}
+.modal-header h5
+{
+    font-family: 'Headhunter';
 }
 .roadmap-container
 {
