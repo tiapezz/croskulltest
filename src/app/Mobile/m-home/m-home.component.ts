@@ -49,7 +49,7 @@ export class MHomeComponent implements OnInit {
     let cloud = document.getElementById('cloud') as HTMLElement;
     let moon = document.getElementById('moon') as HTMLElement;
     let grass = document.getElementById('grass') as HTMLElement;
-    let text = document.getElementById('text') as HTMLElement;
+    let text = document.getElementById('logo-section') as HTMLElement;
     let btn = document.getElementById('btn') as HTMLElement;
 
     cloud.style.top = value * 0.25 + 'px';
