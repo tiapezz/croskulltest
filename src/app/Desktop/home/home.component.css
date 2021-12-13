@@ -66,6 +66,7 @@ section img
 section img#moon
 {
     mix-blend-mode: screen;
+    z-index: 8;
 }
 section img#grass
 {
