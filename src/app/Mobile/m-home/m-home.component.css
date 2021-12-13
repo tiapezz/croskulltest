@@ -229,9 +229,16 @@ section img#mountains_front
 }
 .container2 .card4
 {
-  margin-top: -30%;
-  margin-left: 75%;
-  color: #fff;
+    margin-top: -30%;
+    margin-left: 75%;
+    color: #fff;
+    position: absolute;
+    width: 20%;
+    height: 10%;
+}
+.container2 .card4 img
+{
+    width: 100%;
 }
 .roadmap-container
 {
