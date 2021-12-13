@@ -346,9 +346,9 @@ section img#graves
 }
 .accordion-item
 {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #018CC1;
     box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
-    color: white;
+    color: #018CC1;
     background: rgba(98, 1, 255, 0);
     width: 100%;
     
@@ -365,12 +365,14 @@ section img#graves
 }
 .answer
 {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #018CC1;
     position: relative;
     transition: max-heigh 650ms;
     text-align: left;
     padding: 1rem 0; 
     padding-left: 1%; 
+    color: #fff;
+    font-family: 'Elite';
 }
 .answer::before
 {
@@ -386,7 +388,7 @@ section img#graves
 
 
 .accordion-button:after {
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23018CC1'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
   }
 
   .team
