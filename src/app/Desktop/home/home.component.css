@@ -652,16 +652,29 @@ section img#graves
     font-family: 'Elite';
     font-size: 1vw;
 }
-.container2 .card .content img
+.container2 .card1 .content img
+{
+  width: 55%;
+}
+.container2 .card2 .content img
+{
+  width: 50%;
+}
+.container2 .card3 .content img
 {
   width: 60%;
-  margin-top: 5%;
-  
+}
+.container2 .card4 .content img
+{
+  width: 50%;
 }
 .container2 .card .content p
 {
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: 'Elite';
+    color: #fff;
 }
 .container2 .card:hover .content
 {
@@ -679,6 +692,7 @@ section img#graves
 {
     margin-top: -60%;
     margin-left: 10%;
+    color: #fff;
 }
 .container2 .card2
 {
