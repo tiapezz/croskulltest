@@ -1,6 +1,6 @@
 {
     "/api/*": {
-        "target": "http://croskull.com",
+        "target": "http://www.croskull.com",
         "secure": false,
         "logLevel": "debug"
     }
