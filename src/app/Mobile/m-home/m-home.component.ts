@@ -16,26 +16,26 @@ export class MHomeComponent implements OnInit {
     const text1 = document.querySelector('.text1 p') as HTMLElement;
     text1.innerHTML = text1.innerText.split("").map(
       (char,i) =>
-      '<span style="transform:rotate('+(i * 16)+'deg); position: absolute; left: 50%; transform-origin: 0 100px;">'+char+'</span>'
+      '<span style="transform:rotate('+(i * 16)+'deg); position: absolute; left: 50%; transform-origin: 0 75px;">'+char+'</span>'
     ).join("");
     
     const text2 = document.querySelector('.text2 p') as HTMLElement;
     text2.innerHTML = text2.innerText.split("").map(
       (char,i) =>
-      '<span style="transform:rotate('+(i * 22)+'deg); position: absolute; left: 50%; transform-origin: 0 100px;">'+char+'</span>'
+      '<span style="transform:rotate('+(i * 22)+'deg); position: absolute; left: 50%; transform-origin: 0 75px;">'+char+'</span>'
     ).join("");
     
     const text3 = document.querySelector('.text3 p') as HTMLElement;
     text3.innerHTML = text3.innerText.split("").map(
       (char,i) =>
-      '<span style="transform:rotate('+(i * 22)+'deg); position: absolute; left: 50%; transform-origin: 0 100px;">'+char+'</span>'
+      '<span style="transform:rotate('+(i * 22)+'deg); position: absolute; left: 50%; transform-origin: 0 75px;">'+char+'</span>'
     ).join("");
 
 
     const text4 = document.querySelector('.text4 p') as HTMLElement;
     text4.innerHTML = text4.innerText.split("").map(
       (char,i) =>
-      '<span style="transform:rotate('+(i * 20)+'deg); position: absolute; left: 50%; transform-origin: 0 100px;">'+char+'</span>'
+      '<span style="transform:rotate('+(i * 20)+'deg); position: absolute; left: 50%; transform-origin: 0 75px;">'+char+'</span>'
     ).join("");
 
   }
