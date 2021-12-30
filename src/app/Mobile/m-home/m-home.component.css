@@ -74,6 +74,24 @@ section img#graves
     top: 17%;
     left: 20%;
 }
+.market-title
+{
+    font-family: 'headhunter';
+    color: rgb(224, 240, 255);
+}
+.market-text
+{
+    font-family: 'Elite';
+    font-size: 1.5vh;
+    color: rgb(224, 240, 255);
+}
+.market-text a
+{
+    font-family: 'Elite';
+    color: rgb(224, 240, 255);
+}
+
+
 #btn
 {
     text-decoration: none;
@@ -494,6 +512,7 @@ section img#graves
       width: 100%;
       height: 100%;
       animation: rotateText 10s linear infinite;
+      cursor: pointer;
   }
   @keyframes rotateText
   {
@@ -505,4 +524,22 @@ section img#graves
       {
           transform: rotate(0deg);
       }
+  }
+
+  .skullsLabel-text
+  {
+      font-size: 1.2vh;
+      font-family: 'Elite';
+      margin-top: -5%;
+  }
+  .skullsLabel-title
+  {
+      font-size: 1.5vh;
+      font-family: 'Headhunter';
+      margin-top: 20%;
+  }
+  .skullsLabel-img
+  {
+      width: 50%;
+      margin-top: 10%;
   }

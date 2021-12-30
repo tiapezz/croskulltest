@@ -77,3 +77,10 @@ header ul li a:active
   .soon:hover:before {
     content: "Soon!"
   }
+  .market:hover span {
+    display: none
+  }
+  
+  .market:hover:before {
+    content: "Market"
+  }
