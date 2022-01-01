@@ -11,6 +11,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MHomeComponent } from './Mobile/m-home/m-home.component';
 import { MHeaderComponent} from './Mobile/mheader/mheader.component';
 import { MfooterComponent } from './Mobile/mfooter/mfooter.component';
+import { RightsComponent } from './Desktop/rights/rights.component';
+import { MRightsComponent } from './Mobile/m-rights/m-rights.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,8 @@ import { MfooterComponent } from './Mobile/mfooter/mfooter.component';
     MHomeComponent,
     MHeaderComponent,
     MfooterComponent,
+    RightsComponent,
+    MRightsComponent,
   ],
   imports: [
     BrowserModule,

@@ -60,3 +60,9 @@
   {
     color: #00ab6c;
   }
+  button
+  {
+    font-family: 'Headhunter';
+    width: 50%;
+    text-align: center;
+  }
