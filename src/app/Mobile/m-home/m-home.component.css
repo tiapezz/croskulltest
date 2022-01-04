@@ -543,3 +543,47 @@ section img#graves
       width: 50%;
       margin-top: 10%;
   }
+  .partnership
+{
+    text-align: center;
+    align-items: center;
+    color: rgb(224, 240, 255);
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+.partnership h1
+{
+    font-size: 3em;
+    margin-bottom: 3%;
+    color: rgb(224, 240, 255);
+    font-family: 'Headhunter';
+    text-align: center;
+}
+.partner
+{
+    box-shadow: 0 0 35px rgba(0, 162, 255, 0.644);
+    border: 1px solid rgb(224, 240, 255);
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.logo-img
+{
+    border-radius: 50%;
+    background: rgb(224, 240, 255);
+    position: absolute;
+    right: 46%;
+    top: 76%;
+}
+.name-partner
+{
+    font-family: 'Elite';
+    font-size: 3vh;
+    padding-top: 5%;
+    color: rgb(224, 240, 255); 
+    text-decoration: none !important ; 
+}
+.name-partner:hover
+{
+    text-decoration: none;
+}

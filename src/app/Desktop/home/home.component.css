@@ -479,155 +479,6 @@ section img#graves
 }
 
 
-
-  /*.accordion-item2
-  {
-      border: 1px solid rgba(98, 1, 255);
-      background: rgba(98, 1, 255, 0.308);
-      border-radius: .4rem;
-      margin-bottom: 1rem;
-      padding: 1rem;
-      box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
-  }
-  .accordion-link2{
-      border: 1px solid rgba(98, 1, 255);
-      font-size: 1.5rem;
-      color: rgba(255,255,255,.8);
-      text-decoration: none;
-      background: rgba(98, 1, 255, 0.0);
-      width: 100%;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1rem 0;  
-      padding-left: 10px;  
-
-      .cont{
-    width: 60%;
-    margin: auto;
-}
-.title
-{
-    align-items: center;
-    width: 50%;
-}
-
-.left
-{
-    text-align: right;
-}
-.left img
-{
-    width: 100%;
-}
-.alignleft { 
-    float: left; 
-    width: 20%;
-}
-.alignright { 
-    float: right; 
-    width: 20%;
-}
-.body
-{
-    font-family: tahoma;
-    overflow-x: hidden;
-}
-.roadmap
-{
-    width: 80%;
-    margin: auto;
-    box-shadow: 15px 15px black;
-    margin-top: 3%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 1%;
-    font-size: 1vw;
-    z-index: 3;
-    font-family: 'Elite';
-}
-
-  }*/
-
-/* BANNER */
-/*
-  .container2 .card
-  {
-        position: absolute;
-        max-width: 300px;
-        height: 220px;
-        background: #fab787;
-        display: flex;
-        flex-direction: column;
-        box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-        transition: 0.3s ease-in-out;
-  }
-  .container2 .card1
-  {
-    margin-top: -60%;
-    margin-left: 10%;
-  }
-  .container2 .card2
-  {
-    margin-top: -60%;
-    margin-left: 80%;
-  }
-  .container2 .card3
-  {
-    margin-top: -30%;
-    margin-left: 10%;
-  }
-  .container2 .card4
-  {
-    margin-top: -30%;
-    margin-left: 80%;
-  }
-
-  .container2 .card:hover{
-      height: 420px;
-  }
-  .container2 .card .imgBx
-  {
-      position: relative;
-      margin-left: -50px;
-      margin-top: -30px;
-      width: 260px;
-      height: 260px; 
-      z-index: 1;
-  }
-  .container2 .card .imgBx img
-  {  
-      max-width: 100%;
-      border-radius: 4px;
-  }
-  .container2 .card .content
-  {
-      position: relative;
-      margin-top: -160px;
-      padding: 10px 15px;
-      text-align: center;
-      visibility: hidden;
-      opacity: 0;
-      transition: 0.3s ease-in-out;
-      font-family: 'Elite';
-      font-size: 16px;
-  }
-  .container2 .card .content h2
-  {
-    font-family: 'Headhunter';
-    font-size: 20px;
-  }
-  .container2 .card .content p
-  {
-      font-family: 'Elite';
-  }
-  .container2 .card:hover .content
-  {
-      visibility: visible;
-      opacity: 1;
-      margin-top: 10px;
-      transition-delay: 0.3s;
-  }
-*/
 .container2
 {
     width: 100%;
@@ -850,4 +701,46 @@ section img#graves
 {
     width: 50%;
     margin-top: 10%;
+}
+.partnership
+{
+    text-align: center;
+    font-size: 1vw;
+    align-items: center;
+    color: rgb(224, 240, 255);
+    margin-top: 10%;
+}
+.partnership h1
+{
+    font-size: 3em;
+    margin-bottom: 3%;
+    color: rgb(224, 240, 255);
+    font-family: 'Headhunter';
+    text-align: center;
+}
+.partner
+{
+    box-shadow: 0 0 35px rgba(0, 162, 255, 0.644);
+    border: 1px solid rgb(224, 240, 255);
+    width: 90%;
+    margin-left: 5%;
+}
+.logo-img
+{
+    border-radius: 50%;
+    background: rgb(224, 240, 255);
+    position: absolute;
+    right: 44%;
+    top: 65%;
+}
+.name-partner
+{
+    font-family: 'Elite';
+    font-size: 2.5vh;
+    padding-top: 5%;
+    color: rgb(224, 240, 255);   
+}
+.partner:hover
+{
+    box-shadow: 0 0 35px rgb(0, 162, 255);
 }
