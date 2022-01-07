@@ -63,6 +63,10 @@ export class HomeComponent implements OnInit {
 
   }
 
+  crystal() {
+    alert("Congratulations, you found the treasure clue");
+  }
+
 
 
 
