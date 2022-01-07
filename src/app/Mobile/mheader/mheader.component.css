@@ -26,3 +26,8 @@ body
     background: #0b1424;
     color: aliceblue;
 }
+.dropdown-menu
+{
+    background: transparent;
+    color: aliceblue;
+}
