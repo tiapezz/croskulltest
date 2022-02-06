@@ -587,3 +587,7 @@ section img#graves
 {
     text-decoration: none;
 }
+.partnership a {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

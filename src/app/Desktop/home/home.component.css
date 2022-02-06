@@ -744,3 +744,15 @@ section img#graves
 {
     box-shadow: 0 0 35px rgb(0, 162, 255);
 }
+#nebkas
+{
+    width: 56%;
+}
+#cronoverse{
+    width: 100%;
+
+}
+.col-sm-4
+{
+    margin-top: 5%;
+}
