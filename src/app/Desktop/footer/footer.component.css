@@ -64,6 +64,10 @@
   {
     color: #bc2a8d;
   }
+  .gitbook:hover
+  {
+    color: #fffb00;
+  }
   button
   {
     font-family: 'Headhunter';
