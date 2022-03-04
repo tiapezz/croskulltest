@@ -750,7 +750,12 @@ section img#graves
 }
 #cronoverse{
     width: 100%;
-
+}
+#mm{
+    width: 100%;
+}
+#coingecko{
+    width: 56%;
 }
 .col-sm-4
 {
